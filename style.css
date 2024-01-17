@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+/* Header Designing */
+header{
+    display: flex;
+    height: 79px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    /* border-bottom: 1px solid #b6b1b1; */
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    position: fixed;
+}
+.logo_imag{
+    height: 45px;
+    /* width: 45px; */
+}
+.logo_container{
+    /* margin-left: 40px;
+    margin-right: 5px; */
+    margin: auto;
+}
+.nav_bar{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 520px;
+}
+.nav_bar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #282c3f;
+    font-size: 14px;
+    letter-spacing: .3px;
+    padding: 28px 0;
+    border-bottom: 3px solid #ffffff;
+}
+.nav_bar a:hover{
+    border-bottom: 3px solid #f54e77;
+}
+.nav_bar a sup{
+   color: #ff3f6c;
+   font-size: 10px;
+}
+
+/* Search Bar */
+.search_bar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    margin-left: 5px;
+}
+.search-icon{
+    box-sizing: content-box;
+    padding: 9px;
+    height: 20px;
+    width: 20px;
+    color: #282c3f;
+    background-color: #f5f5f6;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #f5f5f6;
+    border-right: 0;
+}
+.search_input{
+    color:#696e79 ;
+    background-color:#f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    outline: 0;
+    border-left: 0;
+
+}
+
+/* Action Bar */
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+/* Main Section */
+
+.sale_image{
+    margin-top: 100px;
+    height: 90px;
+}
+.hero_image{
+    height: 300px;
+    margin-left: 45px;
+    margin-right: 49px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_image img{
+    height: 300px;
+    width: 1065px;
+}
+
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item{
+    width: 250px;
+}
+
+/* Footer */
+
+.footer_container {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 4px 0 0 7px rgba(0,0,0,.05);
+}
